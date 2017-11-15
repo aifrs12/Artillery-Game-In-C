@@ -3,8 +3,8 @@
  * Author: aifrsantos12
  */
 
-#ifndef COLORES
-#define	COLORES
+#ifndef COLORS
+#define	COLORS
 
 #include <stdbool.h>
 
@@ -12,13 +12,13 @@
 extern "C" {
 #endif
 
-#define CORNORNAL  "\x1B[0m"
-#define CORVERMELHO  "\x1B[31m"
-#define CORVERDE  "\x1B[32m"
-#define CORAZUL "\x1b[34m"
+#define CNORMAL  "\x1B[0m"
+#define CRED  "\x1B[31m"
+#define CGREEN  "\x1B[32m"
+#define CBLUE "\x1b[34m"
 
 #ifdef	__cplusplus
 }
 #endif
 
-#endif	/* COLORES */
+#endif	/* COLORS */
